@@ -3,3 +3,5 @@ let descuento = parseInt(prompt ("ingrese el porcentaje de descuento"))
 
 let montodescuento = (precio*descuento)/100
 let preciofinal = precio-montodescuento
+
+document.write("el precio final con descuento es " , preciofinal)
